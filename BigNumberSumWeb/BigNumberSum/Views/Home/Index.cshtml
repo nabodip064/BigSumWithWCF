@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <br />
+    <a href="NumberInfo/Index" class="btn btn-info">Go to List</a>
+    <br />
+    <form action="Home/GetResult" method="post" id="numberInfoFrom">
+        <label>User Name: </label><input type="text" name="userName" class="form-control" />
+        <label>First Number: </label><input type="text" name="number1" class="form-control" />
+        <label>Second Number: </label><input type="text" name="number2" class="form-control" />
+        <input type="submit" value="Get Result" class="btn btn-primary" />
+        <label>Sum is : </label><label id="sumResult"></label>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        $("#numberInfoFrom").submit(function (ev) {
+            ev.preventDefault();
+            var post_url = "Home/GetResult";
+            var request_method = $(this).attr("method");
+            var form_data = $(this).serialize();
+
+            $.ajax({
+                url: post_url,
+                type: request_method,
+                data: form_data
+            }).done(function (response) {
+                $("#sumResult").html(response);
+            });
+        });
+    </script>
+}

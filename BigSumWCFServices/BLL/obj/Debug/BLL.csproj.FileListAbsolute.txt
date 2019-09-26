@@ -1,0 +1,26 @@
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BLL\bin\Debug\BLL.dll.config
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BLL\bin\Debug\BLL.dll
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BLL\bin\Debug\BLL.pdb
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BLL\bin\Debug\DAL.dll
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BLL\bin\Debug\EntityFramework.dll
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BLL\bin\Debug\DAL.pdb
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BLL\obj\Debug\BLL.dll
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BLL\obj\Debug\BLL.pdb
+C:\Users\User\documents\visual studio 2015\Projects\BigSum\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\documents\visual studio 2015\Projects\BigSum\BLL\bin\Debug\EntityFramework.xml
+C:\Users\User\documents\visual studio 2015\Projects\BigSum\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\bin\Debug\BLL.dll.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\bin\Debug\BLL.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\bin\Debug\BLL.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\bin\Debug\DAL.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\bin\Debug\DAL.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\obj\Debug\BLL.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\obj\Debug\BLL.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BLL\bin\Debug\Newtonsoft.Json.xml

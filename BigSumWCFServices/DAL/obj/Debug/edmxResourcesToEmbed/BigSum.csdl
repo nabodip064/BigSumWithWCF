@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BigSumDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NuberInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstNumber" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SecondNumber" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SumResult" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="UserId" Type="Int32" />
+    <NavigationProperty Name="User" Relationship="Self.FK_NuberInfos_NuberInfos" FromRole="NuberInfos" ToRole="Users" />
+    <Property Name="CalculationDate" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="NuberInfos" Relationship="Self.FK_NuberInfos_NuberInfos" FromRole="Users" ToRole="NuberInfos" />
+  </EntityType>
+  <Association Name="FK_NuberInfos_NuberInfos">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+    <End Role="NuberInfos" Type="Self.NuberInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="NuberInfos">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BigSumDBEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NuberInfos" EntityType="Self.NuberInfo" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_NuberInfos_NuberInfos" Association="Self.FK_NuberInfos_NuberInfos">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="NuberInfos" EntitySet="NuberInfos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,72 @@
+﻿@model IEnumerable<BigNumberSum.Model.NumberInfoViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var userList = (List<BigNumberSum.Model.UserViewModel>)ViewBag.UserList;
+}
+
+<br />
+<p>
+    @Html.ActionLink("Go To Caltulation", "Index", "Home", new object { }, new { @class = "btn btn-info" })
+</p>
+<br />
+<form action='@Url.Action("Index")' method="post">
+    <label>User Name: </label> <select name="userID" class="form-control">
+        <option value="">--Select--</option>
+        @if (userList != null)
+        {
+            foreach (var user in userList)
+            {
+                <option value="@user.ID">@user.UserName</option>
+            }
+        }
+    </select>
+    <label>From Date: </label> <input type="date" name="fromDate" class="form-control"/>
+    <label>To Date: </label> <input type="date" name="toDate" class="form-control"/>
+    <br />
+    <input type="submit" value="Search" class="btn btn-primary"/>
+</form>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CalculationDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Number1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Number2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SumResult)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CalculationDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Number1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Number2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SumResult)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserName)
+        </td>
+    </tr>
+}
+
+</table>

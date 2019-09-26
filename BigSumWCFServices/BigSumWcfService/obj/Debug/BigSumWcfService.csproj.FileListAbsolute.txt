@@ -1,0 +1,26 @@
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BigSumWcfService\obj\Debug\BigSumWcfService.csprojResolveAssemblyReference.cache
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BigSumWcfService\bin\BigSumWcfService.dll.config
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BigSumWcfService\bin\BigSumWcfService.dll
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BigSumWcfService\bin\BigSumWcfService.pdb
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BigSumWcfService\bin\DAL.dll
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BigSumWcfService\bin\DAL.pdb
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BigSumWcfService\obj\Debug\BigSumWcfService.dll
+c:\Users\User\documents\visual studio 2015\Projects\BigSum\BigSumWcfService\obj\Debug\BigSumWcfService.pdb
+C:\Users\User\documents\visual studio 2015\Projects\BigSum\BigSumWcfService\bin\BLL.dll
+C:\Users\User\documents\visual studio 2015\Projects\BigSum\BigSumWcfService\bin\BLL.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\bin\BigSumWcfService.dll.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\bin\BigSumWcfService.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\bin\BigSumWcfService.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\bin\BLL.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\bin\DAL.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\bin\EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\bin\BLL.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\bin\DAL.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\bin\EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\obj\Debug\BigSumWcfService.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\obj\Debug\BigSumWcfService.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\obj\Debug\BigSumWcfService.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\bin\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Backup\backup2 - Copy\BigSum\BigSumWcfService\bin\Newtonsoft.Json.xml

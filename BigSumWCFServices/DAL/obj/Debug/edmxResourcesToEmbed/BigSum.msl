@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BigSumDBModelStoreContainer" CdmEntityContainer="BigSumDBEntities1">
+    <EntitySetMapping Name="NuberInfos">
+      <EntityTypeMapping TypeName="BigSumDBModel.NuberInfo">
+        <MappingFragment StoreEntitySet="NuberInfos">
+          <ScalarProperty Name="CalculationDate" ColumnName="CalculationDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FirstNumber" ColumnName="FirstNumber" />
+          <ScalarProperty Name="SecondNumber" ColumnName="SecondNumber" />
+          <ScalarProperty Name="SumResult" ColumnName="SumResult" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="BigSumDBModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
